@@ -1,7 +1,132 @@
 # Repaired packages
 
-## math-classes.1.0.7
-https://github.com/coq/opam-coq-archive/pull/639
+We check in https://coq-bench.github.io/ for packages with problems and create an issue with the package name. We add the date when we started to look for a fix, and sort the issues in reverse chronological order.
+
+We consider a package fixed when a action is taken (typically the creation of pull-request or an update to the bench system):
+* ✓ fixed
+* ✗ not fixed
+
+## ✗ coq itself
+2019-04-30
+* TODO: check if this is normal to have packages of Coq in the `released/` repository
+
+## ✓ intuitionistic-nuprl.8.6.0
+2019-04-30
+* compilation time increased
+
+## ✓ interval.3.4.0
+2019-04-30
+* compilation time of the dependencies increased
+
+## ✗ hammer.1.0.8+8.7
+2019-04-30
+* TODO: find why this does not work in the bench, and if this is still the case
+* works with Coq 8.7.1+2
+* works with Coq 8.7.2 and OCaml 4.05.0 but not in the bench
+
+## ✓ graphs.8.5.0
+2019-04-30
+* PR https://github.com/coq/opam-coq-archive/pull/641
+* does not work with Coq 8.5.3:
+```
+- File "checker.mli", line 8, characters 1-4:
+- Parse error: [implem] expected after [str_item_semi] (in [implem])
+- File "checker.mli", line 1:
+- Error: Error while running external preprocessor
+```
+* does not work with Coq 8.5.2:
+```
+# File "checker.mli", line 8, characters 1-4:
+# Parse error: [implem] expected after [str_item_semi] (in [implem])
+# File "checker.mli", line 1:
+# Error: Error while running external preprocessor
+```
+* does not work with Coq 8.5.1:
+```
+# File "checker.mli", line 8, characters 1-4:
+# Parse error: [implem] expected after [str_item_semi] (in [implem])
+# File "checker.mli", line 1:
+# Error: Error while running external preprocessor
+```
+* does not work with Coq 8.5.0:
+```
+# File "checker.mli", line 8, characters 1-4:
+# Parse error: [implem] expected after [str_item_semi] (in [implem])
+# File "checker.mli", line 1:
+# Error: Error while running external preprocessor
+```
+
+## ✓ equations.1.0~beta
+2019-04-30
+* PR https://github.com/coq/opam-coq-archive/pull/640
+* does not work with Coq 8.7.1+2:
+```
+CAMLC -c src/equations_common.mli
+File "src/equations_common.mli", line 380, characters 21-28:
+Error: Unbound module Sigma
+```
+* does not work with Coq 8.6.1:
+```
+- File "src/principles_proofs.ml", line 1:
+- Error: The implementation src/principles_proofs.ml
+-        does not match the interface src/principles_proofs.cmi:
+-        ...
+-        In module PathMap:
+-        The value `find_last_opt' is required but not provided
+-        In module PathMap:
+-        The value `find_last' is required but not provided
+-        In module PathMap:
+-        The value `find_first_opt' is required but not provided
+-        In module PathMap:
+-        The value `find_first' is required but not provided
+-        In module PathMap:
+-        The value `find_opt' is required but not provided
+-        In module PathMap:
+-        The value `choose_opt' is required but not provided
+-        In module PathMap:
+-        The value `max_binding_opt' is required but not provided
+-        In module PathMap:
+-        The value `min_binding_opt' is required but not provided
+```
+* does not work with Coq 8.6:
+```
+File "src/principles_proofs.ml", line 1:
+Error: The implementation src/principles_proofs.ml
+       does not match the interface src/principles_proofs.cmi:
+       ...
+       In module PathMap:
+       The value `find_last_opt' is required but not provided
+       In module PathMap:
+       The value `find_last' is required but not provided
+       In module PathMap:
+       The value `find_first_opt' is required but not provided
+       In module PathMap:
+       The value `find_first' is required but not provided
+       In module PathMap:
+       The value `find_opt' is required but not provided
+       In module PathMap:
+       The value `choose_opt' is required but not provided
+       In module PathMap:
+       The value `max_binding_opt' is required but not provided
+       In module PathMap:
+       The value `min_binding_opt' is required but not provided
+```
+* does not work with Coq 8.5.3:
+```
+File "src/equations_common.mli", line 61, characters 23-48:
+Error: Unbound module Context.Rel
+```
+
+## ✗ equations.0.9~beta2
+2019-04-30
+* TODO: watch
+* appears as "Error with dependencies" in the OPAM bench because of incompatible OCaml version => fixed in the bench
+* TODO: check if the bench reports an incompatible OCaml version
+* its only compatible Coq version is `8.5~beta2`: should we move this package out of the released repository? Should we bench without the `core-dev` repository to show a dependency error?
+
+## ✓ math-classes.1.0.7
+2019-04-30
+* PR https://github.com/coq/opam-coq-archive/pull/639
 * fails with Coq 8.7.2:
 ```
 - File "./quote/classquote.v", line 22, characters 13-22:
