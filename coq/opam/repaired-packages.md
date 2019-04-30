@@ -6,6 +6,11 @@ We consider a package fixed when a action is taken (typically the creation of pu
 * ✓ fixed
 * ✗ not fixed
 
+## ✓ paco
+2019-04-30
+* PR https://github.com/coq/opam-coq-archive/pull/642
+* all `coq-paco` versions but one fail with Coq 8.5.3 according to the bench
+
 ## ✗ coq itself
 2019-04-30
 * TODO: check if this is normal to have packages of Coq in the `released/` repository
