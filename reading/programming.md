@@ -14,6 +14,13 @@ To read
 ### Stair Climbing Stabilization of the HRP-4 HumanoidRobot using Whole-body Admittance Control
 https://hal.archives-ouvertes.fr/hal-01875387/document
 by Stéphane Caron
+To read
+
+### Normalization by Evaluation with Typed Abstract Syntax
+https://www.brics.dk/RS/01/16/index.html
+2001
+Proof of normalization and type preservation of the simply typed lambda-calculus in Haskell.
+To read
 
 ## Blogs
 ### What To Know Before Debating Type Systems
