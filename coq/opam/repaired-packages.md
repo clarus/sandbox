@@ -1,6 +1,6 @@
 # Repaired packages
 
-We check in https://coq-bench.github.io/ for packages with problems and create an issue with the package name. We add the date when we started to look for a fix, and sort the issues in reverse chronological order.
+We check in https://coq-bench.github.io/ for packages with errors. In case of error we are trying to solve, we add an issue in this file with the package name. We note the date when we started to look for a fix, and sort the issues in reverse chronological order.
 
 We consider a package fixed when a action is taken (typically the creation of pull-request or an update to the bench system):
 * ✓ fixed
