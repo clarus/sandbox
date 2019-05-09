@@ -15,6 +15,7 @@ The aim of this project is to get them back when this seems reasonable. Ideally,
 ## `coq-charge-core.1.0.0`
 
 ## `coq-compcert.2.7.1`
+https://github.com/coq/opam-coq-archive/pull/649
 
 ## `coq-concurrency-pluto.1.0.0`
 
@@ -67,12 +68,16 @@ The aim of this project is to get them back when this seems reasonable. Ideally,
 ## `coq-io-system.2.3.0`
 
 ## `coq-io-system-ocaml.2.0.0`
+https://github.com/coq/opam-coq-archive/pull/651
 
 ## `coq-io-system-ocaml.2.1.0`
+https://github.com/coq/opam-coq-archive/pull/651
 
 ## `coq-io-system-ocaml.2.2.0`
+https://github.com/coq/opam-coq-archive/pull/651
 
 ## `coq-io-system-ocaml.2.3.0`
+https://github.com/coq/opam-coq-archive/pull/651
 
 ## `coq-izf.8.6.0`
 
@@ -87,11 +92,13 @@ The aim of this project is to get them back when this seems reasonable. Ideally,
 ## `coq-ltac-iter.1.0.0`
 
 ## `coq-math-classes.1.0.7`
-* PR https://github.com/coq/opam-coq-archive/pull/639
+https://github.com/coq/opam-coq-archive/pull/639
 
 ## `coq-of-ocaml.1.0.0`
+https://github.com/coq/opam-coq-archive/pull/648
 
 ## `coq-of-ocaml.1.1.0`
+https://github.com/coq/opam-coq-archive/pull/648
 
 ## `coq-paramcoq.1.0.5`
 
