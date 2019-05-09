@@ -6,6 +6,11 @@ We consider a package fixed when a action is taken (typically the creation of pu
 * ✓ fixed
 * ✗ not fixed
 
+## ✓ min-imports.1.0.0
+2019-05-09
+* PR https://github.com/coq/opam-coq-archive/pull/652
+* fix uninstall
+
 ## ✓ paco
 2019-04-30
 * PR https://github.com/coq/opam-coq-archive/pull/642
@@ -23,11 +28,11 @@ We consider a package fixed when a action is taken (typically the creation of pu
 2019-04-30
 * compilation time of the dependencies increased
 
-## ✗ hammer.1.0.8+8.7
+## ✓ hammer.1.0.8+8.7
 2019-04-30
-* TODO: find why this does not work in the bench, and if this is still the case
 * works with Coq 8.7.1+2
 * works with Coq 8.7.2 and OCaml 4.05.0 but not in the bench
+* now works in the bench! instability?
 
 ## ✓ graphs.8.5.0
 2019-04-30
@@ -124,10 +129,9 @@ Error: Unbound module Context.Rel
 
 ## ✗ equations.0.9~beta2
 2019-04-30
-* TODO: watch
 * appears as "Error with dependencies" in the OPAM bench because of incompatible OCaml version => fixed in the bench
-* TODO: check if the bench reports an incompatible OCaml version
 * its only compatible Coq version is `8.5~beta2`: should we move this package out of the released repository? Should we bench without the `core-dev` repository to show a dependency error?
+* TODO: remove the `core-dev` repository from the bench, check that we get a deps error, remove this package
 
 ## ✓ math-classes.1.0.7
 2019-04-30
