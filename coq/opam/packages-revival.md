@@ -21,14 +21,19 @@ closed (no compatible Coq versions found)
 https://github.com/coq/opam-coq-archive/pull/649
 
 ## `coq-concurrency-pluto.1.0.0`
+https://github.com/coq/opam-coq-archive/pull/678
 
 ## `coq-concurrency-pluto.1.1.0`
+https://github.com/coq/opam-coq-archive/pull/678
 
 ## `coq-concurrency-proxy.1.0.0`
+https://github.com/coq/opam-coq-archive/pull/678
 
 ## `coq-concurrency-system.1.0.0`
+https://github.com/coq/opam-coq-archive/pull/678
 
 ## `coq-concurrency-system.1.1.0`
+https://github.com/coq/opam-coq-archive/pull/678
 
 ## `coq-coqide.8.5~rc1`
 closed
@@ -63,14 +68,19 @@ closed
 ## `coq-interval.2.2.1`
 
 ## `coq-intuitionistic-nuprl.8.5.0`
+does not compile (and did not compile)
 
 ## `coq-io-evaluate.1.0.0`
+https://github.com/coq/opam-coq-archive/pull/679
 
 ## `coq-io-exception.1.1.0`
+https://github.com/coq/opam-coq-archive/pull/680
 
 ## `coq-io-hello-world.1.0.0`
+https://github.com/coq/opam-coq-archive/pull/681
 
 ## `coq-io-hello-world.1.1.0`
+https://github.com/coq/opam-coq-archive/pull/681
 
 ## `coq-io-system.2.1.0`
 https://github.com/coq/opam-coq-archive/pull/657
