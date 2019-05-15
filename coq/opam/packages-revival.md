@@ -42,8 +42,10 @@ closed
 closed
 
 ## `coq-coquelicot.2.0.1`
+https://github.com/coq/opam-coq-archive/pull/685
 
 ## `coq-coquelicot.2.1.0`
+https://github.com/coq/opam-coq-archive/pull/684/files
 
 ## `coq-corn.1.1.0`
 https://github.com/coq/opam-coq-archive/pull/666
@@ -64,6 +66,7 @@ closed
 closed
 
 ## `coq-interval.1.1.0`
+https://github.com/coq/opam-coq-archive/pull/683
 
 ## `coq-interval.2.2.1`
 
