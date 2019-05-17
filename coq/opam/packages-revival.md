@@ -1,4 +1,5 @@
 # Packages revival
+> This project is *done*.
 
 Some packages (63) were removed after the migration to OPAM 2 due to malfunction. The list:
 ```
@@ -69,6 +70,7 @@ closed
 https://github.com/coq/opam-coq-archive/pull/683
 
 ## `coq-interval.2.2.1`
+handled
 
 ## `coq-intuitionistic-nuprl.8.5.0`
 does not compile (and did not compile)
