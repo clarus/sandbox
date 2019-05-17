@@ -6,6 +6,26 @@ We consider a package fixed when a action is taken (typically the creation of pu
 * ✓ fixed
 * ✗ not fixed
 
+## ✓ moment.1.0.0
+2019-05-09
+* PR https://github.com/coq/opam-coq-archive/pull/695
+* wrong Coq version
+
+## ✓ ltac-iter.1.1.0
+2019-05-09
+* PR https://github.com/coq/opam-coq-archive/pull/694
+* wrong Coq version bounds
+
+## ✓ libvalidsdp.0.5
+2019-05-09
+* compilation time of the dependencies increased
+
+## ✗ intuitionistic-nuprl.8.6.0
+2019-05-09
+* too slow (timeout after 5h)
+* issue raised about the timeout https://github.com/coq-contribs/intuitionistic-nuprl/issues/1
+* TODO: watch the issue and take actions accordingly
+
 ## ✓ min-imports.1.0.0
 2019-05-09
 * PR https://github.com/coq/opam-coq-archive/pull/652
@@ -127,11 +147,11 @@ File "src/equations_common.mli", line 61, characters 23-48:
 Error: Unbound module Context.Rel
 ```
 
-## ✗ equations.0.9~beta2
+## ✓ equations.0.9~beta2
 2019-04-30
+* PR https://github.com/coq/opam-coq-archive/pull/693
 * appears as "Error with dependencies" in the OPAM bench because of incompatible OCaml version => fixed in the bench
 * its only compatible Coq version is `8.5~beta2`: should we move this package out of the released repository? Should we bench without the `core-dev` repository to show a dependency error?
-* TODO: remove the `core-dev` repository from the bench, check that we get a deps error, remove this package
 
 ## ✓ math-classes.1.0.7
 2019-04-30
