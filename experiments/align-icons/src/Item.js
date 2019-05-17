@@ -8,15 +8,13 @@ export default class Item extends PureComponent {
   };
 
   render() {
-    const {message, shift} = this.props;
+    const {message} = this.props;
 
     return (
       <p
         onClick={this.handleClick}
         style={{
           cursor: 'pointer',
-          transform: `translate(${shift * 100}%, 0%)`,
-          transition: 'transform 0.35s cubic-bezier(0.15, 0.3, 0.25, 1) 0s',
           width: 120
         }}
       >
