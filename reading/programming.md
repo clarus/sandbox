@@ -1,5 +1,10 @@
 # Programming
 
+## Ott: Effective Tool Support for the Working Semanticist
+https://www.di.ens.fr/~zappa/projects/parsec/documents/met-dec07/zappa.pdf
+
+Slides presenting the Ott project, a tool to define languages and semantics rules and compile them to various theorem provers.
+
 ## Articles / presentations
 ### Google: MLIR Primer: A Compiler Infrastructure for the End of Moore’s Law
 https://drive.google.com/file/d/1hUeAJXcAXwz82RXA5VtO5ZoH8cVQhrOK/view

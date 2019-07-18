@@ -1,5 +1,10 @@
 # Packaging
 
+## Experimenting with a new opam repository release strategy for large libraries
+https://discuss.ocaml.org/t/experimenting-with-a-new-opam-repository-release-strategy-for-large-libraries/2918/22
+
+Discussion about preventively adding, or not, upper bounds for the versions of the dependencies of the packages. I would be in favor of not doing it, and fixing issues after the fact thanks to CI scripts. However, seems to be deemed helpful for the case of large OCaml libraries, such as Jane Street ones.
+
 ## Why Do Software Packages Conflict?
 https://upsilon.cc/~zack/research/publications/msr2012-conflicts.pdf
 
