@@ -1,5 +1,15 @@
 # Programming
 
+## Lem: reusable engineering of real-world semantics
+https://www.cl.cam.ac.uk/~pes20/lem/built-doc/lem-icfp-2014.pdf
+
+A more extensive paper about Lem.
+
+## Lem: A Lightweight Tool for HeavyweightSemantics
+https://www.di.ens.fr/~zappa/projects/wmc/readings/itp11.pdf
+
+Introduction to the tool Lem to formally define languages. Made by some of the same people as Ott. Seems to be more oriented towards programming, both in style (library, type-classes, ...) and in backend support (generation of OCaml to explore models by tests). Presented as a complementary language to Ott, seems that there is an aim to merge the two eventually. For example, Ott supports Lem as a backend.
+
 ## Ott: Effective Tool Support for the Working Semanticist
 https://www.di.ens.fr/~zappa/projects/parsec/documents/met-dec07/zappa.pdf
 
