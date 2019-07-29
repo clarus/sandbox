@@ -1,5 +1,18 @@
 # Programming
 
+## Scaling Static Analyses at Facebook
+https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext
+
+A good summary of the experience at Facebook developing and using the two tools Zoncolan (for Hack) and Infer (for Java, Objective-C, C++). Some ideas:
+* importance of continuous reports of pull-request diffs to increase resolution of alarm;
+* ability to scale static analysis techniques;
+* for apps: looking for runtime failures; for backend: security issues;
+* efficient bug discovery (better than humans);
+* for security: main bugs: can be detected by taint analysis; many entire classes of former bugs are prevented by the use of typing (Hack) or better framework;
+* importance of the analysis of concurrent programs (using separation logic) for the Android app when it was ported to multi-threading;
+* open-source tools, publications;
+* lucky to have good integration researchers / engineers.
+
 ## Lem: reusable engineering of real-world semantics
 https://www.cl.cam.ac.uk/~pes20/lem/built-doc/lem-icfp-2014.pdf
 
