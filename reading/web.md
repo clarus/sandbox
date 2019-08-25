@@ -1,5 +1,13 @@
 # Web
 
+## JavaScript: The Modern Parts
+https://amontalenti.com/2019/08/10/javascript-the-modern-parts
+
+Good summary of the evolution of JavaScript from 1998, from someone who has worked on it since that time.
+* 1998: lot of security issues, browser incompatibilities, not taken seriously compared to other programming languages;
+* 2008: beginning of an ecosystem, with better tooling (debugger, ...), libraries such as jQuery, release of Chrome, V8, Node.js, npm; JavaScript can then run everywhere (desktop, mobile, server);
+* 2018: mature ecosystem, comparable and even better than alternatives such as Java, Python, ... Only problem: a harder learning curve.
+
 ## The Majestic Monolith
 https://m.signalvnoise.com/the-majestic-monolith/
 
