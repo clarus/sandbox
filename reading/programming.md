@@ -1,5 +1,10 @@
 # Programming
 
+## Verified programming in F*, a tutorial
+https://www.fstar-lang.org/tutorial/tutorial.html
+
+A dense introduction to F*. Many examples with proofs, including classical algorithms (sorting), simply typed lambda calculus interpreter and type checker, and state manipulation. Possibility to do complex proofs by guiding Z3 with lemmas and proof structure (induction for example). Error messages seem unclear however, like "it failed at this line" (but I am not an expert in Z3 and F*, may be possible to get more information with experience). Overall, type and proof inference seem to work well. Support of dependent types, effect inference in an effect lattice (divergence, state, exceptions, IOs). Ability to do proofs on the state thanks to an indexed monad with WP support. Properties attached to functions through refinement types or externally with lemmas. Ability to extract to OCaml: cleaner output than in the Coq extraction (no `Obj.magic` for example), but not human-like yet (many generated variable names, while not necessary by keeping the original program structure). Support for FFI to OCaml. OCaml seems to be one of the most mature F* backend, I have not tested the low-level one for imperative code.
+
 ## Scaling Static Analyses at Facebook
 https://cacm.acm.org/magazines/2019/8/238344-scaling-static-analyses-at-facebook/fulltext
 
