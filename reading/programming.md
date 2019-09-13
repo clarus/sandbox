@@ -1,5 +1,10 @@
 # Programming
 
+## A Gallina Subset for C Extraction of Non-structural Recursion
+https://staff.aist.go.jp/reynald.affeldt/coq2019/coqws2019-tanaka.pdf
+
+Seems to do extraction of a subset of Coq to C using a typed AST to deeply embed Coq in Coq. Special treatment for the termination of `for` loops.
+
 ## Verified programming in F*, a tutorial
 https://www.fstar-lang.org/tutorial/tutorial.html
 
