@@ -1,5 +1,28 @@
 # Programming
 
+## Why Dependent Haskell is the Future of Software Development
+https://serokell.io/blog/2018/12/17/why-dependent-haskell
+
+## Embedding Untrusted Imperative ML Oracles into Coq Verified Code
+https://hal.archives-ouvertes.fr/hal-02062288
+
+Proving some properties about FFI from Coq to OCaml during the extraction of Coq to OCaml, using a monad to represent what could happen in the call to a (potentially non-deterministic) OCaml code from Coq. I have not read everything.
+
+## Deep and Shallow Embeddings in Coq
+http://dannenkov.me/papers/TYPES2019-abstract.pdf
+
+* study deep and shallow embedding of functional programs in Coq using [MetaCoq](https://github.com/MetaCoq/metacoq);
+* cite smart-contract languages as a motivation for formal verification;
+* application to the Concordium's Oak smart-contract language;
+* generates the shallow embedding from the deep embedding through MetaCoq and an evaluation function from the language AST to the Coq AST;
+* the idea is to be able to do the meta-theory on the deep embedding and analyse concrete programs with the shallow embedding;
+* uses a fuel to encode arbitrary fixpoints.
+
+## Extending OCaml programs with Lua (soupault got plugin support)
+https://blog.baturin.org/extending-ocaml-programs-with-lua-soupault-got-plugin-support.html
+
+Presents a use case of an implementation of a Lua interpreter[Lua ML](https://github.com/lindig/lua-ml) in OCaml. Since this is a native interpreter, there is a more integrated way to combine Lua code with OCaml code (using only OCaml to make the glue). However the interpreter is only supporting an older version of Lua.
+
 ## A Gallina Subset for C Extraction of Non-structural Recursion
 https://staff.aist.go.jp/reynald.affeldt/coq2019/coqws2019-tanaka.pdf
 
