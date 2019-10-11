@@ -85,3 +85,20 @@ https://arxiv.org/abs/1803.04870
 
 * Certifying Blockchain Byzantine Fault Tolerance
 https://arxiv.org/pdf/1909.07453.pdf
+
+* Momentum is building to explore Venus
+https://news.ycombinator.com/item?id=20116017
+
+* BPF and formal verification
+https://www.sccs.swarthmore.edu/users/16/mmcconv1/pl-reflection.html
+
+* Live coding an assembler for CP/M
+https://news.ycombinator.com/item?id=20071980
+
+* One SQL to Rule Them All
+https://arxiv.org/abs/1905.12133
+
+* FormidableLabs/urql
+https://github.com/FormidableLabs/urql
+
+"A highly customizable and versatile GraphQL client for React"
